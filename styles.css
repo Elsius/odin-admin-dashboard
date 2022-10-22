@@ -50,3 +50,28 @@ header section {
     color: white;
     font-weight: bolder;
 }
+main {
+    border: 5px solid yellow;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10px;
+}
+.main-cards {
+    border: 5px solid orange;
+display: grid;
+gap: 15px;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.card {
+    border: 5px solid green;
+    min-height: 130px;
+    min-width: 130px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+.card div {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
