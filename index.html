@@ -6,136 +6,160 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <container>
-        <div class="sidebar">
-            <div class="logo">
-                <img src="" alt="">
-                logo
+    <aside>
+        <img src="assets/logo.svg" alt="" width="75px" height="75px">
+        <ul class="aside-links">
+            <li><a href=""><img src="assets/icons/home.svg" alt="">Home</a></li>
+            <li><a href=""><img src="assets/icons/profile.svg" alt="">Profile</a></li>
+            <li><a href=""><img src="assets/icons/message.svg" alt="">Messages</a></li>
+            <li><a href=""><img src="assets/icons/history.svg" alt="">History</a></li>
+            <li><a href=""><img src="assets/icons/task.svg" alt="">Tasks</a></li>
+            <li><a href=""><img src="assets/icons/community.svg" alt="">Communities</a></li>
+        </ul>
+        <ul class="aside-links">
+            <li><a href=""><img src="assets/icons/settings.svg" alt="">Settings</a></li>
+            <li><a href=""><img src="assets/icons/support.svg" alt="">Support</a></li>
+            <li><a href=""><img src="assets/icons/privacy.svg" alt="">Privacy</a></li>
+        </ul>
+    </aside>
+    <header>
+        <section>
+            <form action="#" class="searchbar">
+                <button><img src="assets/icons/magnify.png" alt=""></button>
+                <input type="search" name="search" id="search">
+            </form>
+            <div>
+                <img src="notification-icon" alt="">
+                <img src="assets/images/mokoko1.gif" width="50px" height="50px" alt="">
+                <span>Mokoko</span>
             </div>
-            <div class="nav-links">
+        </section>
+        <section>
+            <div id="header-greet">
+                <img src="assets/images/mokoko1.gif" width="100px" height="100px" alt="">
                 <div>
-                    <img src="" alt="home-icon">
-                    <a href="./revision.html">Home</a>
-                </div>
-                <div>
-                    <img src="" alt="profile-icon">
-                    <a href="">Profile</a>
-                </div>
-                <div>
-                    <img src="" alt="message-icon">
-                    <a href="">Messages</a>
-                </div>
-                <div>
-                    <img src="" alt="history-icon">
-                    <a href="">History</a>
-                </div>
-                <div>
-                    <img src="" alt="task-icon">
-                    <a href="">Tasks</a>
-                </div>
-                <div>
-                    <img src="" alt="community-icon">
-                    <a href="">Communities</a>
+                    Sup Dood!
+                    <h2>Mokoko (@mokokonut)</h2>
                 </div>
             </div>
-            <div class="nav-links">
+            <div class="nav-box">
+                <button class="header-nav">New</button>
+                <button class="header-nav">Upload</button>
+                <button class="header-nav">Share</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main-cards">
+            <h3>Your doods!</h3>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
                 <div>
-                    <img src="" alt="settings-icon">
-                    <a href="">Settings</a>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
                 </div>
+            </div>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
                 <div>
-                    <img src="" alt="support-icon">
-                    <a href="">Support</a>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
                 </div>
+            </div>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
                 <div>
-                    <img src="" alt="privacy-icon">
-                    <a href="">Privacy</a>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
                 </div>
+            </div>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
+                <div>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
+                <div>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Card header</h3>
+                <p>filler text</p>
+                <div>
+                    <a href=""><img src="assets/icons/star-check.png" alt="fav"></a>
+                    <a href=""><img src="assets/icons/share.png" alt="share"></a>
+                    <a href=""><img src="assets/icons/fork.png" alt="fork"></a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="main-rightside">
+            <h3>Announcements</h3>
+            <div class="announcement-box">
+                <ul>
+                    <li><h4>Mokoko seed found safe!</h4>
+                    <p>It was here all along.</p></li>
+                    <li><h4>Prinnies on the run!</h4>
+                    <p>A menace to society, local prinnies at large.</p></li>
+                    <li><h4>Local dood does thing!</h4>
+                    <p>Dood!</p></li>
+                </ul>
+            </div>
+            <h3>Trending</h3>
+            <div class="trending-box">
+                <ul>
+                    <li>
+                        <a href=""><img src="assets/images/prinny-icon.png" alt="profile"></a>
+                        <div>
+                            <h4>@prinny</h4>
+                            <div>Local Menace</div>
+                        </div>
+                    </li>
 
+                    <li>
+                        <a href=""><img src="assets/images/mokoko1.gif" alt="profile"></a>
+                        <div>
+                            <h4>@mokokonut</h4>
+                            <div>Hidden in plain sight</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/images/bulbasaur-icon.png" alt=""></a>
+                        <div>
+                            <h4>@onionfrog</h4>
+                            <div>img by CrazyWackyBonkerz</div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/images/wheeler.jpg" alt="profile"></a>
+                        <div>
+                            <h4>@realwheeler</h4>
+                            <div>Fourth rate deck</div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="header">
-            <div class="header-nav">
-                <form action="">
-                    <button>Search</button>
-                    <input type="search" placeholder="Dood?" id="header-search">
-                </form>
-                <div>alerts</div>
-                <a href=""><img src="" alt="">Prinny</a>
-            </div>
-            <div class="header-nav2">
-                <a href=""><img src="" alt=""></a>
-                <div>
-                    <div>Hi there,</div>
-                    <div>Prinny! (@doods)</div>
-                </div>
-                <div class="header-nav-buttons">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="main-cards">
-                <h3>Your Doods!</h3>
-                <div class="card-container">
-                    <div class="card">
-                        <h4>Prinnies 1</h4>
-                        <div>filler text</div>
-                    </div>
-                    <div class="card">Prinnies 2</div>
-                    <div class="card">Prinnies 3</div>
-                    <div class="card">Prinnies 4</div>
-                    <div class="card">Prinnies 5</div>
-                    <div class="card">Prinnies 6</div>
-                </div>
-            </div>
-            <div class="announcements">
-                <legend>Announcements</legend>
-                <div class="announcement-box">
-                    <div class="announcement-card">1</div>
-                    <div class="announcement-card">2</div>
-                    <div class="announcement-card">3</div>
-                </div>
-            </div>
-            <div class="trending">
-                <legend>Trending</legend>
-                <div class="trend-card">
-                    <a href="">
-                        <img src="" alt="trending-image">
-                        <div>@dood1</div>
-                        <div>Prinny 1</div>
-                    </a>
-                </div>
-                <div class="trend-card">
-                    <a href="">
-                        <img src="" alt="trending-image">
-                        <div>@dood2</div>
-                        <div>Prinny 2</div>
-                    </a>
-                </div>
-                <div class="trend-card">
-                    <a href="">
-                        <img src="" alt="trending-image">
-                        <div>@dood3</div>
-                        <div>Prinny 3</div>
-                    </a>
-                </div>
-                <div class="trend-card">
-                    <a href="">
-                        <img src="" alt="trending-image">
-                        <div>@dood4</div>
-                        <div>Prinny 4</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </container>
+        </section>
+    </main>
 </body>
 
 </html>

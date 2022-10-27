@@ -49,7 +49,15 @@ header {
     display: grid;
     grid-template-columns: 30px 1fr;
 }
-
+.searchbar button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+}
+.searchbar img {
+    filter: invert(100%);
+}
 .searchbar input {
     border-radius: 10px;
     background-color: #E5E0DC;
@@ -67,6 +75,14 @@ header section {
     justify-content: space-between;
     align-items: center;
     gap: min(20px, 100%)
+}
+#header-greet {
+    display: flex;
+}
+#header-greet > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 .nav-box {
     display: flex;
@@ -117,7 +133,7 @@ main {
 .card div {
     display: flex;
     justify-content: right;
-    gap: 5px;
+    gap: 10px;
 }
 .main-rightside {
     padding: 5px;
@@ -138,4 +154,30 @@ main {
 }
 .announcement-box ul li:nth-child(n + 2), .trending-box ul li:nth-child(n + 2){
     border-top: 2px solid grey;
+}
+.trending-box li{
+    display: flex;
+}
+.trending-box a img {
+    width: 50px;
+    height: 50px;
+}
+li , p {
+    color: #A29599;
+}
+
+li h4 {
+    color: #514A58;
+}
+
+a {
+    color: white;
+    font-weight: 900;
+
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 2px 2px #514A58;
 }
